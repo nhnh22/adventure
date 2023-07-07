@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "es6",
+    "target": "es6",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "paths": {
+      "~entity/*": ["./src/game/scenes/world/entities/*"],
+      "~scene/*": ["./src/game/scenes/*"],
+      "~game/*": ["./src/game/*"],
+      "~game": ["./src/game"],
+      "~type/*": ["./src/types/*"],
+      "~const/*": ["./src/const/*"],
+      "~lib/*": ["./src/lib/*"],
+      "~web3/*": ["./src/web3/*"],
+      "~hooks/*": ["./src/hooks/*"]
+    }
+  }
+}
