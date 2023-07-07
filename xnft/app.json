@@ -1,0 +1,7 @@
+{
+  "expo": {
+    "name": "Adventure",
+    "slug": "adventure",
+    "entryPoint": "./src/App"
+  }
+}
